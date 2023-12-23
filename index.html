@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>projeto login</title>
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
 </head>
 <body>
     <main>
@@ -16,11 +17,15 @@
 
             <div id="formulario">
                 <h1>login</h1>
-                <p>seja bem-vindo(a) novamente. faça login para acessar sua conta e fazer suas configurações no ambiente de trabalho</p>
+                <p>seja bem-vindo(a) novamente. faça login para acessar sua area de trabalho</p>
 
-                <form action="login.php">
+                <form action="login.php" method="post">
+                    <label for="ilogin">login</label>
+                    <input type="text"><br>
+                    <label for="isenha">senha</label>
+                    <input type="password" name="senha" id="isenha">
 
-                    
+
                 </form>
 
             </div>
