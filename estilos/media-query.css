@@ -11,7 +11,7 @@ azul: #7EB7F0
 cinza: #4F5354
 
 */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 992px) {
     *{
 
         margin: 0px;
@@ -24,7 +24,7 @@ cinza: #4F5354
     html, body{
         height: 100vh;
         width: 100vw;
-        background-image: linear-gradient(30deg, #253546, #7EB7F0, #95abc2 );
+        background-image: linear-gradient(30deg, #317C94 50%, #7EB7F0, #95abc2 );
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -37,14 +37,52 @@ cinza: #4F5354
 
     section#login{
         display: inline-block;
-        width: 900px;
-        height: 700px;
+        width: 80vw;
+
     }
 
+    section#login>div#imagem{
+        float: left;
+        background-image: url(../imagens/pexels-luis-ruiz-1774931\ \(1\).jpg);
+        background-position: right bottom;
+        background-size: cover;
+        width: 30%;
+        height: 100%;
+    }
+
+    section#login>div#formulario{
+        float: right;
+        width: 70%;
+     
+    }
+    
+}
+
+@media screen and (min-width: 992px) {
+
+    html, body{
+        height: 100vh;
+        width: 100vw;
+        background-image: linear-gradient(30deg, #317C94 50%, #7EB7F0, #95abc2 );
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    section#login{
+        width: 950px;
+    }
+    
     section#login>div#imagem{
         background-image: url(../imagens/pexels-luis-ruiz-1774931\ \(1\).jpg);
         background-position: right bottom;
         background-size: cover;
+        float: right;
+        width: 50%;
+        height: 100%;
     }
-    
+
+    section#login>div#formulario{
+        float: left;
+        width: 50%;
+    }
 }
