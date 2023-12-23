@@ -126,13 +126,14 @@ form>div.campo>span{
 
 div.campo>input{
     background-color: white;
-    font-size: .8em;
-    height: 100%;
-    width: 200px;
-   
-    border-style: none;
-    border-radius: 5px;
-    transform: translateY(-10px);
+    font-size: 1em;
+    width: calc(100% - 44px);
+    transform: translateY(-38px);   
+    height: 100%;    
+    padding: 4px;   
+    border-radius: 8px;
+    border: 0px;
+    
 }
 
 #formulario>form>a:hover{
