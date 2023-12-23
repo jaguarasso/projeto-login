@@ -55,6 +55,10 @@ cinza: #4F5354
         width: 70%;
      
     }
+
+    div.campo>input{
+        width: 300px;
+    }
     
 }
 
@@ -84,5 +88,9 @@ cinza: #4F5354
     section#login>div#formulario{
         float: left;
         width: 50%;
+    }
+
+    div.campo>input{
+        width: 400px;
     }
 }
